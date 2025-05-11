@@ -38,9 +38,13 @@ with open(DATA_FILE, "r", encoding="utf-8") as f:
         except:
             continue
 
+if len(lines) < 2:
+    print(f"Chỉ có {len(lines)} mẫu, không đủ dữ liệu để fine-tune. Bỏ qua bước train.")
+    exit(0)
 train_texts, val_texts = train_test_split(lines, test_size=0.1, random_state=42)
 
 # --- Tokenizer & Model ---
+
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 # đảm bảo có token đặc biệt nếu cần
 if tokenizer.pad_token is None:
