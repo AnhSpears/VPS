@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2025-05-11 07:50:34",
+    "path": "/",
+    "latency_ms": 0.31
+  },
+  {
+    "timestamp": "2025-05-11 07:50:34",
+    "path": "/favicon.ico",
+    "latency_ms": 0.21
+  },
+  {
+    "timestamp": "2025-05-11 07:51:39",
+    "path": "/health",
+    "latency_ms": 0.28
+  },
+  {
+    "timestamp": "2025-05-11 07:53:51",
+    "path": "/chat",
+    "latency_ms": 0.2
+  },
+  {
+    "timestamp": "2025-05-11 07:54:17",
+    "path": "/health",
+    "latency_ms": 0.27
+  },
+  {
+    "timestamp": "2025-05-11 08:03:48",
+    "path": "/",
+    "latency_ms": 0.3
+  },
+  {
+    "timestamp": "2025-05-11 08:18:20",
+    "path": "/",
+    "latency_ms": 0.29
+  },
+  {
+    "timestamp": "2025-05-11 08:18:52",
+    "path": "/upload/",
+    "latency_ms": 79.39
+  },
+  {
+    "timestamp": "2025-05-11 08:22:54",
+    "path": "/search/",
+    "latency_ms": 13.02
+  },
+  {
+    "timestamp": "2025-05-11 08:23:08",
+    "path": "/search/",
+    "latency_ms": 13.18
+  }
+]
