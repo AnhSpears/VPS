@@ -1,0 +1,7 @@
+{
+  "name": "AI Backend Dev",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [8000],
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
