@@ -1,3 +1,13 @@
 fastapi
 uvicorn[standard]
 pydantic
+PyPDF2
+python-docx
+openpyxl
+sentence-transformers
+faiss-cpu
+aiofiles
+python-multipart
+transformers
+torch
+scikit-learn
